@@ -1,2 +1,2 @@
-# RecyclerView Template
-A template project for a single fragment activity with a RecyclerView.
+# Basic Template
+A template project for a single fragment activity with a menu.
