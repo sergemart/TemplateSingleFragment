@@ -73,21 +73,21 @@ public class MainFragment extends Fragment {
     // --------------------------- Widget controls
 
     /**
-     * Get widget references
+     * Init member variables
      */
     private void initMemberVariables(View fragmentView) {
     }
 
 
     /**
-     * Set widget attributes
+     * Set attributes
      */
     private void setAttributes() {
     }
 
 
     /**
-     * Set listeners to widgets
+     * Set listeners to widgets and containers
      */
     private void setListeners() {
     }
