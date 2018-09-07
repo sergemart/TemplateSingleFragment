@@ -36,9 +36,9 @@ public class MainFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View fragmentView = inflater.inflate(R.layout.fragment_list, container, false);
 
-        this.getWidgetReferences(fragmentView);
-        this.setWidgetAttributes();
-        this.setWidgetListeners();
+        this.initMemberVariables(fragmentView);
+        this.setAttributes();
+        this.setListeners();
 
         return fragmentView;
     }
@@ -75,21 +75,21 @@ public class MainFragment extends Fragment {
     /**
      * Get widget references
      */
-    private void getWidgetReferences(View fragmentView) {
+    private void initMemberVariables(View fragmentView) {
     }
 
 
     /**
      * Set widget attributes
      */
-    private void setWidgetAttributes() {
+    private void setAttributes() {
     }
 
 
     /**
      * Set listeners to widgets
      */
-    private void setWidgetListeners() {
+    private void setListeners() {
     }
 
 
