@@ -1,4 +1,4 @@
-package com.github.sergemart.mobile.myapp;
+package com.github.sergemart.mobile.myapp.ui;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,6 +10,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.github.sergemart.mobile.myapp.R;
 
 
 public class MainFragment extends Fragment {
